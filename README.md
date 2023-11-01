@@ -1,5 +1,8 @@
 # Machine_Learning
 
+### Table of Contents:
+[Jupyter Notebook](https://github.com/julyndav/Machine_Learning/blob/main/ML_Megaline%20Analysis.ipynb)
+
 ## Megaline Subscriber Analysis
 The following project will analyize subsciber behavior to help in determining what type of model has better accuracy finding the more popular plan, Ultra or Smart.
 
