@@ -8,6 +8,10 @@ The following project will analyize subsciber behavior to help in determining wh
 
 We have access to behavior data about subscribers who have already switched to the new plans. This will be used to develop a model that will pick the right plan. In this project, the threshold for accuracy is 0.75 and will be checked by using the test dataset.
 
+## Libraries Required:
+SKlearn used for modeling
+![Libraries](https://github.com/julyndav/Machine_Learning/blob/main/readmepic/libraries.png)
+
 ### Data description
 <li>
 сalls — number of calls<li>
@@ -31,15 +35,23 @@ Investigate the quality of different models by changing hyperparameters. Briefly
 Check the quality of the model using the test set.<li>
 Sanity check the model.
 
-After inital steps were taken and data cleaning performed, brief exploratory analsyis was performed to get a better sense of how customers use their phones and which plans were involved.
-This was done with using historgrams to visualize the data to show how many calls users typically make, how many minutes they use on their plan, number of messages sent, data used and which plan has the most users. 
+After inital steps were taken and data cleaning performed, brief exploratory analsyis was performed to get a better sense of how customers use their phones and which plans were involved. This was done with using historgrams to visualize the data to show how many calls users typically make, how many minutes they use on their plan, number of messages sent, data used and which plan has the most users. 
+<br></br>
+![EDA](https://github.com/julyndav/Machine_Learning/blob/main/readmepic/eda%20hist.png)
 
+<hr style="border:2px solid black">
+
+### Machine Learning:
 The data was then split into a Training, Validation and Test sets. The Training set will consist of 60% of the dataset with the Test and Validation taking 20% each. Next we used the following learning alogrithms to help with the anlaysis:<br>
 In this section we are going to figure out the best hyperparameters for each of the 3 learning algorithms:
 <li>
 Decision Tree<li>
 Random Forest<li>
-Logistic Regression
+Logistic Regression</li>
+<br>
+The findings from the learning models were grouped to give a compact view of the results. Threshold for the project was 75%.
+
+![Models](https://github.com/julyndav/Machine_Learning/blob/main/readmepic/models.png)
 
 Once the algorithms returned their findings, the project was finished with a report on findings and conclusions to further prove which phone plan would be the most profitable. 
 
